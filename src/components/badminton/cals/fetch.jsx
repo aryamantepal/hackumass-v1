@@ -8,7 +8,6 @@ const PostExample = () => {
         body: '',
         userId: 1, // Assuming a userId
     });
-
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setPostData((prevData) => ({
