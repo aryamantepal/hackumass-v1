@@ -1,0 +1,12 @@
+.courts {
+    cursor: pointer;
+}
+
+* {
+    text-align: center;
+}
+
+.court {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -6,7 +6,7 @@ import {
   Container,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
+  // NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -57,7 +57,7 @@ const NavBar = () => {
                 <NavItem>
                   <NavLink
                     tag={RouterNavLink}
-                    to="/external-api"
+                    to="/bookings"
                     exact
                     activeClassName="router-link-exact-active"
                   >

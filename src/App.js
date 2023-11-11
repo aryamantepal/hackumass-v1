@@ -16,6 +16,7 @@ import "./App.css";
 
 // fontawesome
 import initFontAwesome from "./utils/initFontAwesome";
+import BadmintonScene from "./components/badminton/BadmintonScene";
 initFontAwesome();
 
 const App = () => {
@@ -41,7 +42,8 @@ const App = () => {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/profile" component={Profile} />
-            <Route path="/external-api" component={ExternalApi} />
+            <Route path="/bookings" component={ExternalApi} />
+            <Route path="/bookings/calendar" component={BadmintonScene} />
           </Switch>
         </Container>
         {/* <Footer /> */}
