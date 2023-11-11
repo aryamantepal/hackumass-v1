@@ -1,5 +1,5 @@
 import React from "react";
-import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
+import { useAuth0 } from "@auth0/auth0-react";
 
 // import logo from "../assets/logo.svg";
 import umass from '../assets/umass.png';

@@ -44,7 +44,7 @@ const App = () => {
             <Route path="/external-api" component={ExternalApi} />
           </Switch>
         </Container>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
